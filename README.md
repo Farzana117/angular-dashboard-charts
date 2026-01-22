@@ -1,59 +1,46 @@
-# AngularDashboardCharts
+# Angular Dashboard with Charts 📊
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.1.
+A small Angular 17 dashboard application built using **standalone components** to demonstrate data-driven UI design and basic data visualisation using **Chart.js**.
 
-## Development server
+I have built this project to practise Angular component structure, data binding, and deployment using GitHub Pages.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🚀 Live Demo
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🔗 **Live Application:**  
+https://farzana117.github.io/angular-dashboard-charts/
 
-## Code scaffolding
+🔗 **GitHub Repository:**  
+https://github.com/Farzana117/angular-dashboard-charts
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🛠️ Tech Stack
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- **Angular 17** (Standalone Components)
+- **TypeScript**
+- **Chart.js**
+- **HTML5 / CSS3**
+- **GitHub Pages** (Deployment)
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## ✨ Features
 
-To build the project run:
+- 📌 **Summary KPI Cards**
+  - Total Users
+  - Active Users
+  - Monthly Growth
 
-```bash
-ng build
-```
+- 📈 **Line Chart (Chart.js)**
+  - Visualises user growth over time using dummy data
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- 📋 **Data Table**
+  - Displays user name and status
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- 🧩 **Component-Based Architecture**
+  - Dashboard
+  - Summary Cards
+  - Chart Component
+  - Table Component
